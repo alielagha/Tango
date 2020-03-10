@@ -33,7 +33,6 @@
         android:layout_marginTop="32dp"
         android:text="Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu consequat vitae."
         android:gravity="center"
-        android:textAlignment="center"
         style="@style/SubTitlesStyle"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
