@@ -62,6 +62,7 @@
         android:layout_width="16dp"
         android:layout_height="16dp"
         android:background="@drawable/unseen_message_shape"
+        android:gravity="center"
         android:text="3"
         android:textColor="@android:color/white"
         android:textSize="9sp"
