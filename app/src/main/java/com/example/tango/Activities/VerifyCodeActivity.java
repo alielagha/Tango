@@ -11,7 +11,7 @@ import com.example.tango.R;
 
 public class VerifyCodeActivity extends AppCompatActivity {
 
-    Button nextBtn;
+    private Button nextBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

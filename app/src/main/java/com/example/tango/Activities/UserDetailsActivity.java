@@ -12,7 +12,7 @@ import com.example.tango.R;
 
 public class UserDetailsActivity extends AppCompatActivity {
 
-    Button editBtn;
+    private Button editBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

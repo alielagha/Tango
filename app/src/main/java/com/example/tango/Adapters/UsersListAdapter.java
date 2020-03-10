@@ -17,9 +17,9 @@ import java.util.List;
 
 public class UsersListAdapter extends RecyclerView.Adapter<UsersListAdapter.UserViewHolder> {
 
-    Context context;
-    List<User> users;
-    ItemClickListener itemClickListener;
+    private Context context;
+    private List<User> users;
+    private ItemClickListener itemClickListener;
 
     public interface ItemClickListener {
 
@@ -71,7 +71,7 @@ public class UsersListAdapter extends RecyclerView.Adapter<UsersListAdapter.User
         private ImageView userImageView, onlineImageView;
 
 
-        public UserViewHolder(@NonNull View itemView) {
+        UserViewHolder(@NonNull View itemView) {
 
             super(itemView);
             userImageView = itemView.findViewById(R.id.userImageView);

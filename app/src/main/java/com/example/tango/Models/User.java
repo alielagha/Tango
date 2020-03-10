@@ -1,9 +1,12 @@
 package com.example.tango.Models;
 
 public class User {
-    String username,message,time;
-    int imageId,unreadMessages;
-    boolean isOnline;
+    private String username;
+    private String message;
+    private String time;
+    private int imageId;
+    private int unreadMessages;
+    private boolean isOnline;
 
     public User(String username, String message, String time, int unreadMessages) {
         this.username = username;

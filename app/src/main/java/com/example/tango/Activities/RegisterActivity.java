@@ -11,7 +11,7 @@ import com.example.tango.R;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    Button signUpBtn;
+    private Button signUpBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

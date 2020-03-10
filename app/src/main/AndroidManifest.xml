@@ -14,10 +14,10 @@
         </activity>
         <activity
             android:name=".Activities.VerifyCodeActivity"
-            android:theme="@style/AppTheme.FullScreen"></activity>
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name=".Activities.VerifyNumberActivity"
-            android:theme="@style/AppTheme.FullScreen"></activity>
+            android:theme="@style/AppTheme.FullScreen" />
         <activity
             android:name=".Activities.RegisterActivity"
             android:theme="@style/AppTheme.FullScreen" />
@@ -36,7 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.UsersActivity"></activity>
+        <activity android:name=".Activities.UsersActivity" />
         <activity android:name=".Activities.UserDetailsActivity">
 
         </activity>

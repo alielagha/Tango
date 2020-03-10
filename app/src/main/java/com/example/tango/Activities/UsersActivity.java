@@ -16,14 +16,12 @@ import java.util.List;
 
 public class UsersActivity extends AppCompatActivity {
 
-    private RecyclerView usersRecyclerView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_users);
 
-        usersRecyclerView = findViewById(R.id.usersRecyclerView);
+        RecyclerView usersRecyclerView = findViewById(R.id.usersRecyclerView);
 
         // Recyclerview Setup
         // ini data

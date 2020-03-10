@@ -46,7 +46,6 @@ public class ChatActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
         if (id == R.id.navigation_profile) {
             Toast.makeText(this, "Profile", Toast.LENGTH_SHORT).show();
             return true;

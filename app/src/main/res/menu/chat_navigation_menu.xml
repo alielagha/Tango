@@ -2,22 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/navigation_shop"
         android:icon="@drawable/ic_chat_white_24dp"
         android:title="Chat" />
 
     <item
-        android:id="@+id/navigation_gifts"
         android:icon="@drawable/ic_chat_white_24dp"
         android:title="Call" />
 
     <item
-        android:id="@+id/navigation_cart"
         android:icon="@drawable/ic_chat_white_24dp"
         android:title="Story" />
 
     <item
-        android:id="@+id/navigation_contact"
         android:icon="@drawable/ic_chat_white_24dp"
         android:title="Contact" />
 
@@ -27,13 +23,11 @@
         android:title="Profile" />
 
     <item
-        android:id="@+id/navigation_phone"
         android:icon="@drawable/phone"
         android:title="Phone"
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/navigation_video"
         android:icon="@drawable/video"
         android:title="Video"
         app:showAsAction="ifRoom" />

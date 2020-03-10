@@ -2,22 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_shop"
         android:icon="@drawable/ic_chat_white_24dp"
         android:title="Chat" />
 
     <item
-        android:id="@+id/navigation_gifts"
         android:icon="@drawable/ic_chat_white_24dp"
         android:title="Call" />
 
     <item
-        android:id="@+id/navigation_cart"
         android:icon="@drawable/ic_chat_white_24dp"
         android:title="Story" />
 
     <item
-        android:id="@+id/navigation_contact"
         android:icon="@drawable/ic_chat_white_24dp"
         android:title="Contact" />
 

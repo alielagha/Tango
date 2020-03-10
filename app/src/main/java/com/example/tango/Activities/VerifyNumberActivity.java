@@ -16,8 +16,8 @@ import java.util.List;
 
 public class VerifyNumberActivity extends AppCompatActivity {
 
-    Spinner spinner;
-    Button nextBtn;
+    private Spinner spinner;
+    private Button nextBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

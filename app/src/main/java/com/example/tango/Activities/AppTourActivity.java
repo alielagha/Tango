@@ -20,8 +20,7 @@ public class AppTourActivity extends AppCompatActivity {
 
     private List<Slide> lstSlides;
     private ViewPager sliderpager;
-    private TabLayout indicator;
-    FloatingActionButton floatingActionButton;
+    private FloatingActionButton floatingActionButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +28,7 @@ public class AppTourActivity extends AppCompatActivity {
         setContentView(R.layout.activity_app_tour);
 
         sliderpager = findViewById(R.id.slider_pager);
-        indicator = findViewById(R.id.indicator);
+        TabLayout indicator = findViewById(R.id.indicator);
         floatingActionButton = findViewById(R.id.floatingActionButton4);
 
         // prepare a list of slides ..
