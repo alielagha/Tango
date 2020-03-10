@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activities.UsersActivity"></activity>
-        <activity android:name=".Activities.ScrollingActivity">
+        <activity android:name=".Activities.UserDetailsActivity">
 
         </activity>
     </application>

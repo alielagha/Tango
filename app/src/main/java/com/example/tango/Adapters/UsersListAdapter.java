@@ -15,7 +15,7 @@ import com.example.tango.R;
 
 import java.util.List;
 
-public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHolder> {
+public class UsersListAdapter extends RecyclerView.Adapter<UsersListAdapter.UserViewHolder> {
 
     Context context;
     List<User> users;
@@ -28,7 +28,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UsersAdapter.UserViewHold
     }
 
 
-    public UsersAdapter(Context context, List<User> users, ItemClickListener listener) {
+    public UsersListAdapter(Context context, List<User> users, ItemClickListener listener) {
         this.context = context;
         this.users = users;
         itemClickListener = listener;

@@ -10,14 +10,14 @@ import androidx.appcompat.widget.Toolbar;
 
 import com.example.tango.R;
 
-public class ScrollingActivity extends AppCompatActivity {
+public class UserDetailsActivity extends AppCompatActivity {
 
     Button editBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_scrolling);
+        setContentView(R.layout.activity_user_details);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);

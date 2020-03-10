@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.tango.Adapters.UsersAdapter;
+import com.example.tango.Adapters.UsersListAdapter;
 import com.example.tango.Models.User;
 import com.example.tango.R;
 
@@ -42,14 +42,14 @@ public class UsersActivity extends AppCompatActivity {
         users.add(new User("Ali Elagha", "Hi , How Are you", "7:10 PM", 2));
         users.add(new User("Ali Elagha", "Hi , How Are you", "7:10 PM", 2));
 
-        UsersAdapter usersAdapter = new UsersAdapter(this, users, new UsersAdapter.ItemClickListener() {
+        UsersListAdapter usersListAdapter = new UsersListAdapter(this, users, new UsersListAdapter.ItemClickListener() {
             @Override
             public void onUserClick(User user) {
-                Intent intent = new Intent(getApplicationContext(), ScrollingActivity.class);
+                Intent intent = new Intent(getApplicationContext(), UserDetailsActivity.class);
                 startActivity(intent);
             }
         });
-        usersRecyclerView.setAdapter(usersAdapter);
+        usersRecyclerView.setAdapter(usersListAdapter);
         usersRecyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
 
     }
