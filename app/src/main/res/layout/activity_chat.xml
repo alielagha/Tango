@@ -50,7 +50,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Last Seen 8:10 am"
-                android:textAlignment="center"
                 android:textColor="@color/whiteSubTitlesColor"
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="@+id/userImageView"

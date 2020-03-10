@@ -91,7 +91,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Carrier SMS charges may be apply"
-        android:textAlignment="center"
         android:textColor="@color/whiteSubTitlesColor"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/nextBtn"
