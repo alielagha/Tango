@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/bgColor</item>
+    </style>
+
+    <style name="AppTheme.FullScreen">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TitlesStyle">
+        <item name="android:textColor">@color/whiteTitlesColor</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="SubTitlesStyle">
+        <item name="android:textColor">@color/whiteSubTitlesColor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:textColor">@color/whiteTitlesColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">#6E6F86</item>
+        <item name="backgroundTint">#2D2E45</item>
+        <item name="android:background">@drawable/edit_text_shape</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <style name="buttonsStyle">
+        <item name="android:textColor">@color/whiteTitlesColor</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/edit_text_shape</item>
+        <item name="backgroundTint">@color/buttonsColor</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>

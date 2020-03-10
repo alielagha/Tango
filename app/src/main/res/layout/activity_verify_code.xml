@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_padding"
+    tools:context=".Activities.VerifyCodeActivity">
+
+    <TextView
+        android:id="@+id/tourTitleTv"
+        style="@style/TitlesStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Enter your verification code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tourContentTv"
+        style="@style/SubTitlesStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="It’s through mistakes that you actually can grow You have to get bad in to order to get good"
+        app:layout_constraintEnd_toEndOf="@+id/tourTitleTv"
+        app:layout_constraintStart_toStartOf="@+id/tourTitleTv"
+        app:layout_constraintTop_toBottomOf="@+id/tourTitleTv" />
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/TitlesStyle"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:maxLength="4"
+        android:text="1"
+        app:backgroundTint="#4B5063"
+        app:layout_constraintEnd_toStartOf="@+id/editText3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tourContentTv" />
+
+    <EditText
+        android:id="@+id/editText3"
+        style="@style/TitlesStyle"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:maxLength="4"
+        android:text="7"
+        app:backgroundTint="#4B5063"
+        app:layout_constraintBottom_toBottomOf="@+id/editText2"
+        app:layout_constraintEnd_toStartOf="@+id/editText4"
+        app:layout_constraintStart_toEndOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="@+id/editText2" />
+
+    <EditText
+        android:id="@+id/editText4"
+        style="@style/TitlesStyle"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:inputType="phone"
+        android:maxLength="4"
+        android:text="5"
+        app:backgroundTint="#4B5063"
+        app:layout_constraintBottom_toBottomOf="@+id/editText3"
+        app:layout_constraintEnd_toStartOf="@+id/editText5"
+        app:layout_constraintStart_toEndOf="@+id/editText3"
+        app:layout_constraintTop_toTopOf="@+id/editText3" />
+
+    <EditText
+        android:id="@+id/editText5"
+        style="@style/TitlesStyle"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="phone"
+        android:maxLength="4"
+        android:text="4"
+        app:backgroundTint="#4B5063"
+        app:layout_constraintBottom_toBottomOf="@+id/editText4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText4"
+        app:layout_constraintTop_toTopOf="@+id/editText4" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        style="@style/buttonsStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Verify Now"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <TextView
+        android:id="@+id/textView14"
+        style="@style/SubTitlesStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Didn't recieve the verification code? Resend code"
+        app:layout_constraintEnd_toEndOf="@+id/nextBtn"
+        app:layout_constraintStart_toStartOf="@+id/nextBtn"
+        app:layout_constraintTop_toBottomOf="@+id/nextBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

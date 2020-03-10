@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21223D</color>
+    <color name="colorPrimaryDark">#21223D</color>
+    <color name="colorAccent">#5C4DF7</color>
+
+    <color name="bgColor">#21223D</color>
+    <color name="buttonsColor">#857DDA</color>
+    <color name="whiteTitlesColor">#EAEAEE</color>
+    <color name="whiteSubTitlesColor">#6E6F86</color>
+    <color name="grayLineColor">#4B5063</color>
+
+    <color name="bgBottomNavigation">#fe485a</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_padding">
+
+    <ImageView
+        android:id="@+id/tourImageView"
+        android:layout_width="306dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/tour_image_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tourTitleTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Send Free Message"
+        style="@style/TitlesStyle"
+        app:layout_constraintEnd_toEndOf="@+id/tourImageView"
+        app:layout_constraintStart_toStartOf="@+id/tourImageView"
+        app:layout_constraintTop_toBottomOf="@+id/tourImageView" />
+
+    <TextView
+        android:id="@+id/tourContentTv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu consequat vitae."
+        android:gravity="center"
+        android:textAlignment="center"
+        style="@style/SubTitlesStyle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tourTitleTv" />
+</androidx.constraintlayout.widget.ConstraintLayout>
